@@ -200,7 +200,7 @@ const Modal: React.FC<ModalProps> = ({
 
 
                                         />
-                                )}
+                                    )}
                                     <Button
 
                                         disabled={disabled}
@@ -210,23 +210,12 @@ const Modal: React.FC<ModalProps> = ({
 
                                     />
                                 </div>
-
+                                {footer}
                             </div>
-
-
-
                         </div>
-
-
-
                     </div>
-
-
-
                 </div>
-
             </div>
-
         </>
     );
 }
